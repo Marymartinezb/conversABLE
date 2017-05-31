@@ -20,24 +20,16 @@
     margin: 10px;
   }
 
-  a {
-    color: #fff;
-    font-weight: initial;
-  }
-
   p {
+    color: #fff;
     font-size: 1rem;
-    margin-bottom: 20px ;
+    font-weight: initial;
   }
 }
 
 .event-item_certified {
   background: #5f9fc0;
   width: 46%;
-
-  .btn-events {
-    color: #000;
-  }
 }
 
 .event-item_workshop {
@@ -46,10 +38,6 @@
 
   ::before {
     background-image: url("../img/icon-workshop.png")
-  }
-
-  .btn-events {
-    color: #000;
   }
 }
 
@@ -60,20 +48,4 @@
   ::before {
     background-image: url("../img/icon-consulting.png")
   }
-
-  .btn-events {
-    color: #000;
-  }
-}
-
-.btn-events {
-  background-color: #fff;
-  border: none;
-  padding: .6rem;
-}
-
-.btn-events:hover {
-  background-color: transparent;
-  border: .1rem solid #fff;
-  color: #fff;
 }

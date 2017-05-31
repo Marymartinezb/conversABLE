@@ -1,15 +1,35 @@
-.main-btn {
-    display: block;
-    width: 150px;
-    height: 50px;
-    background-color: #20a296;
+//Standar of btns
+
+.btn-principal {
+    background-color: $conversable-turquoise;
+    border: none;
     color: #fff;
-    padding-top: 12px;
-    font-weight: $font-family-base-normal-weight;
-    border-bottom: none;
+    padding: 1.5em 2.5em;
+
+    &:hover {
+        background-color: $conversable-turquoise-accent;
+    }
 }
 
-.btn-certification {
-	margin: 0 auto;
-	margin-top: 43px;
+.btn-secundary {
+    background-color: $conversable-btn-secundary;
+
+    &:hover {
+        background-color: $conversable-btn-secundary-accent;
+    }
+}
+
+.btn-size {
+    padding: .6em;
+}
+
+.btn-over-color {
+    background-color: #fff;
+    color: $conversable-btn-secundary;
+
+    &:hover {
+        background-color: transparent;
+        border: 2px solid #fff;
+        color: #fff;
+    }
 }
