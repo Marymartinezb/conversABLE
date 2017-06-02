@@ -1,15 +1,18 @@
-.btn-principal {
-    background-color: $turquoise;
+.btn {
     border: none;
     color: #fff;
     padding: 1.5em 2.5em;
+}
+
+.btn--principal {
+    background-color: $turquoise;
 
     &:hover {
         background-color: $turquoise-accent;
     }
 }
 
-.btn-secundary {
+.btn--secundary {
     background-color: #a5a5a5;
 
     &:hover {
@@ -17,11 +20,11 @@
     }
 }
 
-.btn--resize-small {
+.btn--small {
     padding: .6em;
 }
 
-.btn--color-white {
+.btn--invert {
     background-color: #fff;
     color: #a5a5a5;
 
