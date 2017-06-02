@@ -1,31 +1,29 @@
-//Standar of btns
-
 .btn-principal {
-    background-color: $conversable-turquoise;
+    background-color: $turquoise;
     border: none;
     color: #fff;
     padding: 1.5em 2.5em;
 
     &:hover {
-        background-color: $conversable-turquoise-accent;
+        background-color: $turquoise-accent;
     }
 }
 
 .btn-secundary {
-    background-color: $conversable-btn-secundary;
+    background-color: #a5a5a5;
 
     &:hover {
-        background-color: $conversable-btn-secundary-accent;
+        background-color: #d0cece;
     }
 }
 
-.btn-size {
+.btn--resize-small {
     padding: .6em;
 }
 
-.btn-over-color {
+.btn--color-white {
     background-color: #fff;
-    color: $conversable-btn-secundary;
+    color: #a5a5a5;
 
     &:hover {
         background-color: transparent;
