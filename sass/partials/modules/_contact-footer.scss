@@ -1,28 +1,28 @@
 .hello-friend {
-    background: url(../img/bg-footer.jpg) repeat-x;
-    padding: $space-medium 0;
+  background: url(../img/bg-footer.jpg) repeat-x;
+  padding: $space-medium 0;
 }
 
 .hello-friend__wrap {
-    max-width: 1200px;
-    margin: 0 auto;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .hello-friend__img {
-    float: left;
-    max-width: 150px;
+  float: left;
+  max-width: 150px;
 
-    img {
-        max-width: 100%;
-    }
+  img {
+      max-width: 100%;
+  }
 }
 
 .hello-friend_desc {
-    color: #fff;
-    float: right;
+  color: #fff;
+  float: right;
 }
 
 .hello-friend__title {
-    color: #fff;
-    margin-bottom: 0;
+  color: #fff;
+  margin-bottom: 0;
 }

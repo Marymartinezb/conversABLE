@@ -1,23 +1,16 @@
-.lastest-post-wrap {
-  width: 90%;
-  margin: 0 auto;
-
+.lastest-post {
   img {
     width: 77%;
     padding: 10px;
   }
 
-  h3,
-  h4 {
+  p {
+    font-weight: initial;
     margin: 0;
   }
-  span {
-    color: $violet-light;
-  }
-
 }
 
-.lastest-post {
+.lastest-post--grid {
 	width: 48%; 
 	float: left;
 	margin: 5px;
@@ -28,4 +21,3 @@
     border: none;
   }
 }
-

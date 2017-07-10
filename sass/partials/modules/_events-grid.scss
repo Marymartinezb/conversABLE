@@ -1,14 +1,9 @@
 .events-wrapper {
   padding: 0;
-}
+} // en drupal no es necesario borrar
 
 .events-grid {
   border: .5rem solid $gray;
-  display: inline;
-  float: left;
-  padding: $space-base;
-  min-height: 300px;
-  text-align: center;
 
   h4,
   h5 {
@@ -32,12 +27,10 @@
 
 .event-item_certified {
   background: #5f9fc0;
-  width: 33.33%;
 }
 
 .event-item_workshop {
   background: #21a295;
-  width: 33.33%;
 
   ::before {
     background-image: url("../img/icon-workshop.png")
@@ -46,7 +39,6 @@
 
 .event-item_consulting {
   background: $violet-light;
-  width: 33.33%;
 
   ::before {
     background-image: url("../img/icon-consulting.png")
